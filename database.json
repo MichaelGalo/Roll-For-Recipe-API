@@ -1,0 +1,529 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@email.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@email.com"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bob.johnson@email.com"
+    },
+    {
+      "id": 4,
+      "name": "Alice Williams",
+      "email": "alice.williams@email.com"
+    },
+    {
+      "id": 5,
+      "name": "Mike Brown",
+      "email": "mike.brown@email.com"
+    },
+    {
+      "id": 6,
+      "name": "Sarah Lee",
+      "email": "sarah.lee@email.com"
+    },
+    {
+      "id": 7,
+      "name": "Tom Wilson",
+      "email": "tom.wilson@email.com"
+    },
+    {
+      "id": 8,
+      "name": "Emma Clark",
+      "email": "emma.clark@email.com"
+    },
+    {
+      "id": 9,
+      "name": "David Miller",
+      "email": "david.miller@email.com"
+    },
+    {
+      "id": 10,
+      "name": "Olivia Taylor",
+      "email": "olivia.taylor@email.com"
+    },
+    {
+      "id": 11,
+      "name": "Ryan Anderson",
+      "email": "ryan.anderson@email.com"
+    },
+    {
+      "id": 12,
+      "name": "Sophia White",
+      "email": "sophia.white@email.com"
+    },
+    {
+      "id": 13,
+      "name": "William Green",
+      "email": "william.green@email.com"
+    },
+    {
+      "id": 14,
+      "name": "Ava Martin",
+      "email": "ava.martin@email.com"
+    },
+    {
+      "id": 15,
+      "name": "Noah Thomas",
+      "email": "noah.thomas@email.com"
+    },
+    {
+      "email": "michael@michaelthinks.co",
+      "name": "Michael Galo",
+      "id": 16
+    }
+  ],
+  "mealCategories": [
+    {
+      "id": 1,
+      "name": "Italian"
+    },
+    {
+      "id": 2,
+      "name": "Chinese"
+    },
+    {
+      "id": 3,
+      "name": "Mexican"
+    },
+    {
+      "id": 4,
+      "name": "Indian"
+    },
+    {
+      "id": 5,
+      "name": "Japanese"
+    },
+    {
+      "id": 6,
+      "name": "French"
+    },
+    {
+      "id": 7,
+      "name": "Thai"
+    },
+    {
+      "id": 8,
+      "name": "Greek"
+    },
+    {
+      "id": 9,
+      "name": "Spanish"
+    },
+    {
+      "id": 10,
+      "name": "American"
+    },
+    {
+      "id": 11,
+      "name": "Middle Eastern"
+    },
+    {
+      "id": 12,
+      "name": "Vietnamese"
+    },
+    {
+      "id": 13,
+      "name": "Korean"
+    },
+    {
+      "id": 14,
+      "name": "Mediterranean"
+    },
+    {
+      "id": 15,
+      "name": "Brazilian"
+    }
+  ],
+  "grocerySubcategories": [
+    {
+      "id": 1,
+      "name": "Dairy"
+    },
+    {
+      "id": 2,
+      "name": "Produce"
+    },
+    {
+      "id": 3,
+      "name": "Baking"
+    },
+    {
+      "id": 4,
+      "name": "Meat"
+    },
+    {
+      "id": 5,
+      "name": "Seafood"
+    },
+    {
+      "id": 6,
+      "name": "Frozen"
+    },
+    {
+      "id": 7,
+      "name": "Canned Goods"
+    },
+    {
+      "id": 8,
+      "name": "Dry Goods"
+    },
+    {
+      "id": 9,
+      "name": "Beverages"
+    },
+    {
+      "id": 10,
+      "name": "Snacks"
+    },
+    {
+      "id": 11,
+      "name": "Condiments"
+    },
+    {
+      "id": 12,
+      "name": "Spices"
+    },
+    {
+      "id": 13,
+      "name": "Bread"
+    },
+    {
+      "id": 14,
+      "name": "Cleaning Supplies"
+    },
+    {
+      "id": 15,
+      "name": "Personal Care"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Milk",
+      "grocerySubcategoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Eggs",
+      "grocerySubcategoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Flour",
+      "grocerySubcategoryId": 3
+    },
+    {
+      "id": 4,
+      "name": "Sugar",
+      "grocerySubcategoryId": 3
+    },
+    {
+      "id": 5,
+      "name": "Tomatoes",
+      "grocerySubcategoryId": 2
+    },
+    {
+      "id": 6,
+      "name": "Chicken",
+      "grocerySubcategoryId": 4
+    },
+    {
+      "id": 7,
+      "name": "Salmon",
+      "grocerySubcategoryId": 5
+    },
+    {
+      "id": 8,
+      "name": "Frozen Peas",
+      "grocerySubcategoryId": 6
+    },
+    {
+      "id": 9,
+      "name": "Canned Beans",
+      "grocerySubcategoryId": 7
+    },
+    {
+      "id": 10,
+      "name": "Rice",
+      "grocerySubcategoryId": 8
+    },
+    {
+      "id": 11,
+      "name": "Orange Juice",
+      "grocerySubcategoryId": 9
+    },
+    {
+      "id": 12,
+      "name": "Potato Chips",
+      "grocerySubcategoryId": 10
+    },
+    {
+      "id": 13,
+      "name": "Ketchup",
+      "grocerySubcategoryId": 11
+    },
+    {
+      "id": 14,
+      "name": "Cinnamon",
+      "grocerySubcategoryId": 12
+    },
+    {
+      "id": 15,
+      "name": "Whole Wheat Bread",
+      "grocerySubcategoryId": 13
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Pancakes",
+      "body": "Mix flour, eggs, and milk. Cook on griddle.",
+      "categoryId": 1,
+      "userId": 1,
+      "favorite": true,
+      "time": 20,
+      "servings": 4
+    },
+    {
+      "id": 2,
+      "title": "Tomato Soup",
+      "body": "Simmer tomatoes with herbs and cream.",
+      "categoryId": 9,
+      "userId": 2,
+      "favorite": false,
+      "time": 30,
+      "servings": 6
+    },
+    {
+      "id": 3,
+      "title": "Grilled Chicken",
+      "body": "Marinate chicken and grill until cooked.",
+      "categoryId": 12,
+      "userId": 3,
+      "favorite": true,
+      "time": 45,
+      "servings": 4
+    },
+    {
+      "id": 4,
+      "title": "Caesar Salad",
+      "body": "Toss lettuce with dressing, croutons, and parmesan.",
+      "categoryId": 8,
+      "userId": 4,
+      "favorite": false,
+      "time": 15,
+      "servings": 2
+    },
+    {
+      "id": 5,
+      "title": "Spaghetti Carbonara",
+      "body": "Cook pasta, mix with eggs, cheese, and bacon.",
+      "categoryId": 11,
+      "userId": 5,
+      "favorite": true,
+      "time": 25,
+      "servings": 3
+    },
+    {
+      "id": 6,
+      "title": "Chocolate Chip Cookies",
+      "body": "Mix ingredients, shape into cookies, and bake.",
+      "categoryId": 6,
+      "userId": 6,
+      "favorite": true,
+      "time": 30,
+      "servings": 24
+    },
+    {
+      "id": 7,
+      "title": "Veggie Stir Fry",
+      "body": "Sauté mixed vegetables with soy sauce.",
+      "categoryId": 13,
+      "userId": 7,
+      "favorite": false,
+      "time": 20,
+      "servings": 2
+    },
+    {
+      "id": 8,
+      "title": "Smoothie Bowl",
+      "body": "Blend frozen fruits, top with granola and fresh fruits.",
+      "categoryId": 4,
+      "userId": 8,
+      "favorite": true,
+      "time": 10,
+      "servings": 1
+    },
+    {
+      "id": 9,
+      "title": "Beef Tacos",
+      "body": "Cook seasoned ground beef, serve in taco shells with toppings.",
+      "categoryId": 2,
+      "userId": 9,
+      "favorite": false,
+      "time": 25,
+      "servings": 4
+    },
+    {
+      "id": 10,
+      "title": "Caprese Skewers",
+      "body": "Assemble mozzarella, tomatoes, and basil on skewers.",
+      "categoryId": 5,
+      "userId": 10,
+      "favorite": true,
+      "time": 15,
+      "servings": 8
+    },
+    {
+      "id": 11,
+      "title": "Mushroom Risotto",
+      "body": "Slowly cook rice with broth and mushrooms.",
+      "categoryId": 3,
+      "userId": 11,
+      "favorite": false,
+      "time": 40,
+      "servings": 4
+    },
+    {
+      "id": 12,
+      "title": "Trail Mix",
+      "body": "Mix nuts, dried fruits, and chocolate chips.",
+      "categoryId": 7,
+      "userId": 12,
+      "favorite": true,
+      "time": 5,
+      "servings": 10
+    },
+    {
+      "id": 13,
+      "title": "Gluten-Free Pizza",
+      "body": "Prepare gluten-free crust, add toppings, and bake.",
+      "categoryId": 14,
+      "userId": 13,
+      "favorite": false,
+      "time": 35,
+      "servings": 4
+    },
+    {
+      "id": 14,
+      "title": "Keto Bacon and Eggs",
+      "body": "Fry bacon and eggs in butter.",
+      "categoryId": 15,
+      "userId": 14,
+      "favorite": true,
+      "time": 15,
+      "servings": 2
+    },
+    {
+      "id": 15,
+      "title": "Tuna Salad Sandwich",
+      "body": "Mix canned tuna with mayo, serve on bread.",
+      "categoryId": 10,
+      "userId": 15,
+      "favorite": false,
+      "time": 10,
+      "servings": 2
+    }
+  ],
+  "ingredientsForRecipe": [
+    {
+      "id": 1,
+      "ingredientId": 2,
+      "recipeId": 1,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "ingredientId": 3,
+      "recipeId": 1,
+      "quantity": 2
+    },
+    {
+      "id": 3,
+      "ingredientId": 1,
+      "recipeId": 1,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "ingredientId": 5,
+      "recipeId": 2,
+      "quantity": 5
+    },
+    {
+      "id": 5,
+      "ingredientId": 6,
+      "recipeId": 3,
+      "quantity": 2
+    },
+    {
+      "id": 6,
+      "ingredientId": 3,
+      "recipeId": 6,
+      "quantity": 3
+    },
+    {
+      "id": 7,
+      "ingredientId": 4,
+      "recipeId": 6,
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "ingredientId": 7,
+      "recipeId": 7,
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "ingredientId": 8,
+      "recipeId": 7,
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "ingredientId": 9,
+      "recipeId": 9,
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "ingredientId": 10,
+      "recipeId": 5,
+      "quantity": 2
+    },
+    {
+      "id": 12,
+      "ingredientId": 11,
+      "recipeId": 8,
+      "quantity": 1
+    },
+    {
+      "id": 13,
+      "ingredientId": 12,
+      "recipeId": 12,
+      "quantity": 2
+    },
+    {
+      "id": 14,
+      "ingredientId": 13,
+      "recipeId": 9,
+      "quantity": 1
+    },
+    {
+      "id": 15,
+      "ingredientId": 15,
+      "recipeId": 15,
+      "quantity": 2
+    }
+  ]
+}
