@@ -79,9 +79,14 @@
       "email": "michael@michaelthinks.co",
       "name": "Michael Galo",
       "id": 16
+    },
+    {
+      "id": 17,
+      "name": "Leah Galo",
+      "email": "leahgalo111@gmail.com"
     }
   ],
-  "mealCategories": [
+  "mealTypes": [
     {
       "id": 1,
       "name": "Italian"
@@ -143,7 +148,7 @@
       "name": "Brazilian"
     }
   ],
-  "grocerySubcategories": [
+  "grocerySubTypes": [
     {
       "id": 1,
       "name": "Dairy"
@@ -208,322 +213,1488 @@
   "ingredients": [
     {
       "id": 1,
-      "name": "Milk",
-      "grocerySubcategoryId": 1
+      "name": "Tomato",
+      "grocerySubTypeId": 2
     },
     {
       "id": 2,
-      "name": "Eggs",
-      "grocerySubcategoryId": 1
+      "name": "Whole Wheat Flour",
+      "grocerySubTypeId": 3
     },
     {
       "id": 3,
-      "name": "Flour",
-      "grocerySubcategoryId": 3
+      "name": "Mozzarella Cheese",
+      "grocerySubTypeId": 1
     },
     {
       "id": 4,
-      "name": "Sugar",
-      "grocerySubcategoryId": 3
+      "name": "Basil",
+      "grocerySubTypeId": 2
     },
     {
       "id": 5,
-      "name": "Tomatoes",
-      "grocerySubcategoryId": 2
+      "name": "Olive Oil",
+      "grocerySubTypeId": 11
     },
     {
       "id": 6,
-      "name": "Chicken",
-      "grocerySubcategoryId": 4
+      "name": "Yeast",
+      "grocerySubTypeId": 3
     },
     {
       "id": 7,
-      "name": "Salmon",
-      "grocerySubcategoryId": 5
+      "name": "Salt",
+      "grocerySubTypeId": 12
     },
     {
       "id": 8,
-      "name": "Frozen Peas",
-      "grocerySubcategoryId": 6
+      "name": "Sugar",
+      "grocerySubTypeId": 3
     },
     {
       "id": 9,
-      "name": "Canned Beans",
-      "grocerySubcategoryId": 7
+      "name": "Pepperoni",
+      "grocerySubTypeId": 4
     },
     {
       "id": 10,
-      "name": "Rice",
-      "grocerySubcategoryId": 8
+      "name": "Bell Pepper",
+      "grocerySubTypeId": 2
     },
     {
       "id": 11,
-      "name": "Orange Juice",
-      "grocerySubcategoryId": 9
+      "name": "Onion",
+      "grocerySubTypeId": 2
     },
     {
       "id": 12,
-      "name": "Potato Chips",
-      "grocerySubcategoryId": 10
+      "name": "Mushrooms",
+      "grocerySubTypeId": 2
     },
     {
       "id": 13,
-      "name": "Ketchup",
-      "grocerySubcategoryId": 11
+      "name": "Sausage",
+      "grocerySubTypeId": 4
     },
     {
       "id": 14,
-      "name": "Cinnamon",
-      "grocerySubcategoryId": 12
+      "name": "Chicken Breast",
+      "grocerySubTypeId": 4
     },
     {
       "id": 15,
-      "name": "Whole Wheat Bread",
-      "grocerySubcategoryId": 13
+      "name": "Ground Beef",
+      "grocerySubTypeId": 4
+    },
+    {
+      "id": 16,
+      "name": "Salmon",
+      "grocerySubTypeId": 5
+    },
+    {
+      "id": 17,
+      "name": "Shrimp",
+      "grocerySubTypeId": 5
+    },
+    {
+      "id": 18,
+      "name": "Carrots",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 19,
+      "name": "Broccoli",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 20,
+      "name": "Spinach",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 21,
+      "name": "Apples",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 22,
+      "name": "Bananas",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 23,
+      "name": "Strawberries",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 24,
+      "name": "Blueberries",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 25,
+      "name": "Almonds",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 26,
+      "name": "Walnuts",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 27,
+      "name": "Peanut Butter",
+      "grocerySubTypeId": 11
+    },
+    {
+      "id": 28,
+      "name": "Jelly",
+      "grocerySubTypeId": 11
+    },
+    {
+      "id": 29,
+      "name": "Bread",
+      "grocerySubTypeId": 13
+    },
+    {
+      "id": 30,
+      "name": "Butter",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 31,
+      "name": "Milk",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 32,
+      "name": "Eggs",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 33,
+      "name": "Cheddar Cheese",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 34,
+      "name": "Parmesan Cheese",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 35,
+      "name": "Cream of Mushroom Soup",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 36,
+      "name": "Cream of Chicken Soup",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 37,
+      "name": "Yogurt",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 38,
+      "name": "Cream Cheese",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 39,
+      "name": "Chicken Thighs",
+      "grocerySubTypeId": 4
+    },
+    {
+      "id": 40,
+      "name": "Pork Chops",
+      "grocerySubTypeId": 4
+    },
+    {
+      "id": 41,
+      "name": "Bacon",
+      "grocerySubTypeId": 4
+    },
+    {
+      "id": 42,
+      "name": "Hot Dogs",
+      "grocerySubTypeId": 4
+    },
+    {
+      "id": 43,
+      "name": "Turkey Breast",
+      "grocerySubTypeId": 4
+    },
+    {
+      "id": 44,
+      "name": "Ham",
+      "grocerySubTypeId": 4
+    },
+    {
+      "id": 45,
+      "name": "Tilapia",
+      "grocerySubTypeId": 5
+    },
+    {
+      "id": 46,
+      "name": "Cod",
+      "grocerySubTypeId": 5
+    },
+    {
+      "id": 47,
+      "name": "Crab",
+      "grocerySubTypeId": 5
+    },
+    {
+      "id": 48,
+      "name": "Lobster",
+      "grocerySubTypeId": 5
+    },
+    {
+      "id": 49,
+      "name": "Tuna",
+      "grocerySubTypeId": 5
+    },
+    {
+      "id": 50,
+      "name": "Romaine Lettuce",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 51,
+      "name": "Iceberg Lettuce",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 52,
+      "name": "Cabbage",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 53,
+      "name": "Kale",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 54,
+      "name": "Green Beans",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 55,
+      "name": "Corn",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 56,
+      "name": "Peas",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 57,
+      "name": "Zucchini",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 58,
+      "name": "Eggplant",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 59,
+      "name": "Cucumber",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 60,
+      "name": "Celery",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 61,
+      "name": "Garlic",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 62,
+      "name": "Ginger",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 63,
+      "name": "Cilantro",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 64,
+      "name": "Parsley",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 65,
+      "name": "Dill",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 66,
+      "name": "Rosemary",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 67,
+      "name": "Thyme",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 68,
+      "name": "Oregano",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 69,
+      "name": "Chives",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 70,
+      "name": "Bay Leaves",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 71,
+      "name": "Sage",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 72,
+      "name": "Mint",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 73,
+      "name": "Paprika",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 74,
+      "name": "Cumin",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 75,
+      "name": "Coriander",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 76,
+      "name": "Turmeric",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 77,
+      "name": "Chili Powder",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 78,
+      "name": "Cayenne Pepper",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 79,
+      "name": "Black Pepper",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 80,
+      "name": "White Pepper",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 81,
+      "name": "Red Pepper Flakes",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 82,
+      "name": "Nutmeg",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 83,
+      "name": "Cinnamon",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 84,
+      "name": "Cloves",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 85,
+      "name": "Allspice",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 86,
+      "name": "Vanilla Extract",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 87,
+      "name": "Almond Extract",
+      "grocerySubTypeId": 12
+    },
+    {
+      "id": 88,
+      "name": "Baking Powder",
+      "grocerySubTypeId": 3
+    },
+    {
+      "id": 89,
+      "name": "Baking Soda",
+      "grocerySubTypeId": 3
+    },
+    {
+      "id": 90,
+      "name": "Cornstarch",
+      "grocerySubTypeId": 3
+    },
+    {
+      "id": 91,
+      "name": "Powdered Sugar",
+      "grocerySubTypeId": 3
+    },
+    {
+      "id": 92,
+      "name": "Brown Sugar",
+      "grocerySubTypeId": 3
+    },
+    {
+      "id": 93,
+      "name": "Molasses",
+      "grocerySubTypeId": 3
+    },
+    {
+      "id": 94,
+      "name": "Honey",
+      "grocerySubTypeId": 3
+    },
+    {
+      "id": 95,
+      "name": "Maple Syrup",
+      "grocerySubTypeId": 3
+    },
+    {
+      "id": 96,
+      "name": "Coconut Oil",
+      "grocerySubTypeId": 11
+    },
+    {
+      "id": 97,
+      "name": "Vegetable Oil",
+      "grocerySubTypeId": 11
+    },
+    {
+      "id": 98,
+      "name": "Canola Oil",
+      "grocerySubTypeId": 11
+    },
+    {
+      "id": 99,
+      "name": "Butter",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 100,
+      "name": "Margarine",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 101,
+      "name": "Heavy Cream",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 102,
+      "name": "Sour Cream",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 103,
+      "name": "Half-and-Half",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 104,
+      "name": "Evaporated Milk",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 105,
+      "name": "Condensed Milk",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 106,
+      "name": "Buttermilk",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 107,
+      "name": "Almond Milk",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 108,
+      "name": "Soy Milk",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 109,
+      "name": "Coconut Milk",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 110,
+      "name": "Rice Milk",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 111,
+      "name": "Chocolate Chips",
+      "grocerySubTypeId": 3
+    },
+    {
+      "id": 112,
+      "name": "Cocoa Powder",
+      "grocerySubTypeId": 3
+    },
+    {
+      "id": 113,
+      "name": "White Chocolate",
+      "grocerySubTypeId": 3
+    },
+    {
+      "id": 114,
+      "name": "Peanut Butter Chips",
+      "grocerySubTypeId": 3
+    },
+    {
+      "id": 115,
+      "name": "Butterscotch Chips",
+      "grocerySubTypeId": 3
+    },
+    {
+      "id": 116,
+      "name": "Raisins",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 117,
+      "name": "Dried Cranberries",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 118,
+      "name": "Dried Apricots",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 119,
+      "name": "Dried Apples",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 120,
+      "name": "Dried Bananas",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 121,
+      "name": "Dried Mango",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 122,
+      "name": "Dried Pineapple",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 123,
+      "name": "Dried Blueberries",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 124,
+      "name": "Dried Cherries",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 125,
+      "name": "Oats",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 126,
+      "name": "Quinoa",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 127,
+      "name": "Brown Rice",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 128,
+      "name": "White Rice",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 129,
+      "name": "Wild Rice",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 130,
+      "name": "Pasta Sauce",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 131,
+      "name": "Macaroni",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 132,
+      "name": "Spaghetti",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 133,
+      "name": "Fettuccine",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 134,
+      "name": "Penne",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 135,
+      "name": "Rigatoni",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 136,
+      "name": "Lasagna Noodles",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 137,
+      "name": "Egg Noodles",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 138,
+      "name": "Rice Noodles",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 139,
+      "name": "Soba Noodles",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 140,
+      "name": "Udon Noodles",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 141,
+      "name": "Barley",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 142,
+      "name": "Farro",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 143,
+      "name": "Millet",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 144,
+      "name": "Bulgar",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 145,
+      "name": "Couscous",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 146,
+      "name": "Polenta",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 147,
+      "name": "Grits",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 148,
+      "name": "Bread Crumbs",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 149,
+      "name": "Croutons",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 150,
+      "name": "Granola",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 151,
+      "name": "Popcorn",
+      "grocerySubTypeId": 10
+    },
+    {
+      "id": 152,
+      "name": "Potato Chips",
+      "grocerySubTypeId": 10
+    },
+    {
+      "id": 153,
+      "name": "Tortilla Chips",
+      "grocerySubTypeId": 10
+    },
+    {
+      "id": 154,
+      "name": "Pretzels",
+      "grocerySubTypeId": 10
+    },
+    {
+      "id": 155,
+      "name": "Crackers",
+      "grocerySubTypeId": 10
+    },
+    {
+      "id": 156,
+      "name": "Nuts",
+      "grocerySubTypeId": 10
+    },
+    {
+      "id": 157,
+      "name": "Trail Mix",
+      "grocerySubTypeId": 10
+    },
+    {
+      "id": 158,
+      "name": "Beef Jerky",
+      "grocerySubTypeId": 10
+    },
+    {
+      "id": 159,
+      "name": "Granola Bars",
+      "grocerySubTypeId": 10
+    },
+    {
+      "id": 160,
+      "name": "Fruit Snacks",
+      "grocerySubTypeId": 10
+    },
+    {
+      "id": 161,
+      "name": "Rice Cakes",
+      "grocerySubTypeId": 10
+    },
+    {
+      "id": 162,
+      "name": "Candy",
+      "grocerySubTypeId": 10
+    },
+    {
+      "id": 163,
+      "name": "Chocolate",
+      "grocerySubTypeId": 10
+    },
+    {
+      "id": 164,
+      "name": "Soda",
+      "grocerySubTypeId": 9
+    },
+    {
+      "id": 165,
+      "name": "Juice",
+      "grocerySubTypeId": 9
+    },
+    {
+      "id": 166,
+      "name": "Water",
+      "grocerySubTypeId": 9
+    },
+    {
+      "id": 167,
+      "name": "Tea",
+      "grocerySubTypeId": 9
+    },
+    {
+      "id": 168,
+      "name": "Coffee",
+      "grocerySubTypeId": 9
+    },
+    {
+      "id": 169,
+      "name": "Beer",
+      "grocerySubTypeId": 9
+    },
+    {
+      "id": 170,
+      "name": "Wine",
+      "grocerySubTypeId": 9
+    },
+    {
+      "id": 174,
+      "name": "Sparkling Water",
+      "grocerySubTypeId": 9
+    },
+    {
+      "id": 175,
+      "name": "Coconut Water",
+      "grocerySubTypeId": 9
+    },
+    {
+      "id": 178,
+      "name": "Canned Tomatoes",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 179,
+      "name": "Canned Beans",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 180,
+      "name": "Canned Corn",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 181,
+      "name": "Canned Peas",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 182,
+      "name": "Canned Carrots",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 183,
+      "name": "Canned Mushrooms",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 184,
+      "name": "Canned Soup",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 185,
+      "name": "Canned Chili",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 186,
+      "name": "Canned Tuna",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 187,
+      "name": "Canned Salmon",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 188,
+      "name": "Canned Chicken",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 189,
+      "name": "Canned Ham",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 193,
+      "name": "Canned Applesauce",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 195,
+      "name": "Frozen Vegetables",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 196,
+      "name": "Frozen Fruit",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 197,
+      "name": "Frozen Pizza",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 200,
+      "name": "Frozen Waffles",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 201,
+      "name": "Frozen Pancakes",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 202,
+      "name": "Frozen French Fries",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 203,
+      "name": "Frozen Chicken Nuggets",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 204,
+      "name": "Frozen Fish Sticks",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 205,
+      "name": "Frozen Shrimp",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 207,
+      "name": "Lemon Ice",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 209,
+      "name": "Sherbet",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 210,
+      "name": "Popsicles",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 232,
+      "name": "Frozen Ice Cream",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 233,
+      "name": "Frozen Yogurt",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 234,
+      "name": "Frozen Sherbet",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 243,
+      "name": "Frozen Pizza Rolls",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 244,
+      "name": "Frozen Burritos",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 245,
+      "name": "Avocado",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 246,
+      "name": "Black Beans",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 247,
+      "name": "Kidney Beans",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 248,
+      "name": "Balsamic Vinegar",
+      "grocerySubTypeId": 11
+    },
+    {
+      "id": 249,
+      "name": "Pizza Dough",
+      "grocerySubTypeId": 13
     }
   ],
   "recipes": [
     {
       "id": 1,
-      "title": "Pancakes",
-      "body": "Mix flour, eggs, and milk. Cook on griddle.",
-      "categoryId": 1,
-      "userId": 1,
-      "favorite": true,
-      "time": 20,
-      "servings": 4
+      "title": "Honey Glazed Salmon",
+      "body": "Instructions:\n1. Preheat oven to 400°F (200°C).\n2. Mix honey, soy sauce, lemon juice, and minced garlic.\n3. Place salmon fillets in a baking dish, pour glaze over them.\n4. Bake for 15-20 minutes, basting occasionally.\n5. Broil for 2-3 minutes to caramelize the glaze.\n6. Garnish with sesame seeds and green onions.\n7. Serve with steamed vegetables and rice.",
+      "mealTypeId": 2,
+      "userId": 6,
+      "authorFavorite": true,
+      "favorites": 1,
+      "time": 30,
+      "servings": 4,
+      "date": "7/30/2024"
     },
     {
       "id": 2,
-      "title": "Tomato Soup",
-      "body": "Simmer tomatoes with herbs and cream.",
-      "categoryId": 9,
-      "userId": 2,
-      "favorite": false,
-      "time": 30,
-      "servings": 6
+      "title": "Classic Beef Lasagna",
+      "body": "Instructions:\n1. Brown ground beef with onions and garlic.\n2. Add tomato sauce and Italian seasonings, simmer.\n3. Mix ricotta, egg, and parmesan cheese.\n4. Layer lasagna noodles, meat sauce, ricotta mix, and mozzarella.\n5. Repeat layers, ending with mozzarella on top.\n6. Bake at 375°F for 45 minutes.\n7. Let rest for 10 minutes before serving.",
+      "mealTypeId": 3,
+      "userId": 7,
+      "authorFavorite": false,
+      "favorites": 0,
+      "time": 90,
+      "servings": 8,
+      "date": "7/30/2024"
     },
     {
       "id": 3,
-      "title": "Grilled Chicken",
-      "body": "Marinate chicken and grill until cooked.",
-      "categoryId": 12,
-      "userId": 3,
-      "favorite": true,
-      "time": 45,
-      "servings": 4
+      "title": "Mediterranean Chickpea Salad",
+      "body": "Instructions:\n1. Drain and rinse canned chickpeas.\n2. Chop cucumber, tomatoes, red onion, and bell pepper.\n3. Mix vegetables with chickpeas in a large bowl.\n4. Add crumbled feta cheese and kalamata olives.\n5. Whisk olive oil, lemon juice, garlic, and herbs for dressing.\n6. Pour dressing over salad and toss gently.\n7. Chill for at least 30 minutes before serving.",
+      "mealTypeId": 1,
+      "userId": 8,
+      "authorFavorite": true,
+      "favorites": 1,
+      "time": 20,
+      "servings": 6,
+      "date": "7/30/2024"
     },
     {
       "id": 4,
-      "title": "Caesar Salad",
-      "body": "Toss lettuce with dressing, croutons, and parmesan.",
-      "categoryId": 8,
-      "userId": 4,
-      "favorite": false,
-      "time": 15,
-      "servings": 2
+      "title": "Homemade Margherita Pizza",
+      "body": "Instructions:\n1. Preheat oven to 450°F with a pizza stone.\n2. Roll out pizza dough on a floured surface.\n3. Spread a thin layer of tomato sauce on the dough.\n4. Add sliced fresh mozzarella and halved cherry tomatoes.\n5. Drizzle with olive oil and sprinkle with salt.\n6. Bake for 12-15 minutes until crust is golden.\n7. Top with fresh basil leaves before serving.",
+      "mealTypeId": 2,
+      "userId": 9,
+      "authorFavorite": false,
+      "favorites": 0,
+      "time": 30,
+      "servings": 4,
+      "date": "7/30/2024"
     },
     {
       "id": 5,
-      "title": "Spaghetti Carbonara",
-      "body": "Cook pasta, mix with eggs, cheese, and bacon.",
-      "categoryId": 11,
-      "userId": 5,
-      "favorite": true,
-      "time": 25,
-      "servings": 3
+      "title": "Creamy Mushroom Risotto",
+      "body": "Instructions:\n1. Sauté mushrooms in butter until golden, set aside.\n2. In same pan, sauté onions until translucent.\n3. Add Arborio rice, stir to coat with oil.\n4. Gradually add warm broth, stirring constantly.\n5. Cook until rice is creamy and al dente.\n6. Stir in mushrooms, parmesan cheese, and parsley.\n7. Season with salt and pepper, serve immediately.",
+      "mealTypeId": 2,
+      "userId": 10,
+      "authorFavorite": true,
+      "favorites": 1,
+      "time": 40,
+      "servings": 4,
+      "date": "7/30/2024"
     },
     {
       "id": 6,
-      "title": "Chocolate Chip Cookies",
-      "body": "Mix ingredients, shape into cookies, and bake.",
-      "categoryId": 6,
-      "userId": 6,
-      "favorite": true,
-      "time": 30,
-      "servings": 24
+      "title": "Spicy Thai Green Curry",
+      "body": "Instructions:\n1. Heat coconut oil in a large pot.\n2. Add green curry paste and cook until fragrant.\n3. Pour in coconut milk and bring to a simmer.\n4. Add diced chicken or tofu and vegetables.\n5. Simmer until chicken is cooked and veggies are tender.\n6. Stir in fish sauce, lime juice, and brown sugar.\n7. Serve over jasmine rice with fresh cilantro.",
+      "mealTypeId": 3,
+      "userId": 11,
+      "authorFavorite": false,
+      "favorites": 0,
+      "time": 35,
+      "servings": 4,
+      "date": "7/30/2024"
     },
     {
       "id": 7,
-      "title": "Veggie Stir Fry",
-      "body": "Sauté mixed vegetables with soy sauce.",
-      "categoryId": 13,
-      "userId": 7,
-      "favorite": false,
-      "time": 20,
-      "servings": 2
+      "title": "Caprese Stuffed Avocados",
+      "body": "Instructions:\n1. Halve avocados and remove pits.\n2. Dice fresh mozzarella and cherry tomatoes.\n3. Mix mozzarella and tomatoes with chopped basil.\n4. Spoon mixture into avocado halves.\n5. Drizzle with balsamic glaze.\n6. Sprinkle with salt and pepper.\n7. Serve immediately as a light lunch or appetizer.",
+      "mealTypeId": 1,
+      "userId": 12,
+      "authorFavorite": true,
+      "favorites": 1,
+      "time": 15,
+      "servings": 2,
+      "date": "7/30/2024"
     },
     {
       "id": 8,
-      "title": "Smoothie Bowl",
-      "body": "Blend frozen fruits, top with granola and fresh fruits.",
-      "categoryId": 4,
-      "userId": 8,
-      "favorite": true,
-      "time": 10,
-      "servings": 1
+      "title": "Beef and Broccoli Stir-Fry",
+      "body": "Instructions:\n1. Slice beef thinly and marinate in soy sauce and cornstarch.\n2. Heat oil in a wok or large skillet.\n3. Stir-fry beef until browned, remove from pan.\n4. In same pan, stir-fry broccoli and garlic.\n5. Add beef back to pan with oyster sauce and water.\n6. Cook until sauce thickens and broccoli is tender-crisp.\n7. Serve over steamed rice.",
+      "mealTypeId": 2,
+      "userId": 13,
+      "authorFavorite": false,
+      "favorites": 0,
+      "time": 25,
+      "servings": 4,
+      "date": "7/30/2024"
     },
     {
       "id": 9,
-      "title": "Beef Tacos",
-      "body": "Cook seasoned ground beef, serve in taco shells with toppings.",
-      "categoryId": 2,
-      "userId": 9,
-      "favorite": false,
-      "time": 25,
-      "servings": 4
+      "title": "Lemon Blueberry Pancakes",
+      "body": "Instructions:\n1. Mix flour, baking powder, sugar, and salt in a bowl.\n2. In another bowl, whisk milk, eggs, melted butter, and lemon zest.\n3. Combine wet and dry ingredients, fold in blueberries.\n4. Heat a griddle or non-stick pan over medium heat.\n5. Pour 1/4 cup batter for each pancake.\n6. Cook until bubbles form, flip and cook other side.\n7. Serve with maple syrup and extra blueberries.",
+      "mealTypeId": 1,
+      "userId": 14,
+      "authorFavorite": true,
+      "favorites": 1,
+      "time": 30,
+      "servings": 4,
+      "date": "7/30/2024"
     },
     {
       "id": 10,
-      "title": "Caprese Skewers",
-      "body": "Assemble mozzarella, tomatoes, and basil on skewers.",
-      "categoryId": 5,
-      "userId": 10,
-      "favorite": true,
-      "time": 15,
-      "servings": 8
+      "title": "Slow Cooker Pulled Pork",
+      "body": "Instructions:\n1. Rub pork shoulder with a mix of brown sugar, paprika, and spices.\n2. Place pork in slow cooker with sliced onions.\n3. Pour in barbecue sauce and apple cider vinegar.\n4. Cook on low for 8-10 hours until meat is tender.\n5. Shred pork with two forks, discarding excess fat.\n6. Mix shredded pork with cooking juices.\n7. Serve on buns with coleslaw and extra BBQ sauce.",
+      "mealTypeId": 3,
+      "userId": 15,
+      "authorFavorite": false,
+      "favorites": 0,
+      "time": 600,
+      "servings": 8,
+      "date": "7/30/2024"
     },
     {
       "id": 11,
-      "title": "Mushroom Risotto",
-      "body": "Slowly cook rice with broth and mushrooms.",
-      "categoryId": 3,
-      "userId": 11,
-      "favorite": false,
-      "time": 40,
-      "servings": 4
+      "title": "Janet's Chili",
+      "body": "Instructions:\n1. Cook ground beef in dutch oven. Season with S&P. Once it cooks, drain in a colander and set aside. Leave meat oils in pot.\n2. In a separate pot, cook the elbow pasta in salted water with olive oil. Once done, drain and put back into pot. Set aside.\n3. In the dutch oven sauté onion, garlic, red pepper. Season with cumin, S&P, and garlic powder.\n4. Add can of tomatoes chopped and crushed. Wash black and kidney beans and cooked meat back into the dutch oven.\n5. Add seasoning: chili powder, red pepper flakes, brown sugar and a little bit of water.\n6. Cook down and season to taste.\n7. Once done, read to serve chili mix on top of noodles. Add any extra desired toppings.\n\n\n",
+      "mealTypeId": 3,
+      "userId": 17,
+      "authorFavorite": true,
+      "favorites": 1,
+      "time": 45,
+      "servings": 6,
+      "date": "7/29/2024"
     },
     {
       "id": 12,
-      "title": "Trail Mix",
-      "body": "Mix nuts, dried fruits, and chocolate chips.",
-      "categoryId": 7,
-      "userId": 12,
-      "favorite": true,
-      "time": 5,
-      "servings": 10
+      "title": "Bowl of Cereal",
+      "body": "Ingredients:\n- Cereal\n- Milk\n\nInstructions:\n1. add a cup and a half of cereal to a bowl\n2. add a cup and half of milk (preferably oat) to a bowl\n3. toss a spoon in there and enjoy!\n4. don't forget to drink the milk",
+      "mealTypeId": 10,
+      "userId": 16,
+      "authorFavorite": true,
+      "favorites": 3,
+      "time": "",
+      "servings": 1,
+      "date": "7/24/2024",
+      "user": {
+        "email": "michael@michaelthinks.co",
+        "name": "Michael Galo",
+        "id": 16
+      },
+      "mealType": {
+        "id": 10,
+        "name": "American"
+      }
     },
     {
       "id": 13,
-      "title": "Gluten-Free Pizza",
-      "body": "Prepare gluten-free crust, add toppings, and bake.",
-      "categoryId": 14,
-      "userId": 13,
-      "favorite": false,
-      "time": 35,
-      "servings": 4
+      "title": "Spaghetti",
+      "body": "Ingredients:\n1lb of ground beef or ground turkey, 1 onion, 2 bell peppers, 2 cloves of garlic, balsamic vinaigrette, fresh basil, oregano, thyme, garlic powder, paprika, red pepper flakes, salt, pepper, pasta sauce and pasta of choice.\n\nInstructions:\n1. Cook the ground meat in the dutch oven. Season with salt and pepper, garlic, oregano.\n2. Drain and let sit in colander.\n3. Add olive oil to meat au jus and sauce garlic, onions and peppers. Season oregano, thyme, paprika, red pepper flakes and salt and pepper.\n4. Add pasta sauce and turn down the heat.\n5. Add meat back into the mix.\n6. Add balsamic vinaigrette and chopped fresh basil to cook down.\n7. Cook pasta, drain and ready to serve.\n\nTip: always better the second night.\n",
+      "mealTypeId": 1,
+      "userId": 17,
+      "authorFavorite": true,
+      "favorites": 1,
+      "time": 40,
+      "servings": 5,
+      "date": "7/29/2024"
     },
     {
       "id": 14,
-      "title": "Keto Bacon and Eggs",
-      "body": "Fry bacon and eggs in butter.",
-      "categoryId": 15,
-      "userId": 14,
-      "favorite": true,
-      "time": 15,
-      "servings": 2
+      "title": "Grilled Chicken Salad",
+      "body": "Ingredients: 2 chicken breasts, mixed salad greens, cherry tomatoes, cucumber, red onion, feta cheese, olive oil, lemon juice, salt, pepper, dried oregano.\n\nInstructions: Season chicken with salt, pepper, and oregano. Grill until cooked through. Chop vegetables and mix in a large bowl with salad greens. Slice grilled chicken and add to the salad. Crumble feta cheese over the top.\n\nDress with a mixture of olive oil and lemon juice. Toss and serve immediately.",
+      "mealTypeId": 8,
+      "userId": 17,
+      "authorFavorite": false,
+      "favorites": 2,
+      "time": 25,
+      "servings": 2,
+      "date": "7/26/2024"
     },
     {
       "id": 15,
-      "title": "Tuna Salad Sandwich",
-      "body": "Mix canned tuna with mayo, serve on bread.",
-      "categoryId": 10,
-      "userId": 15,
-      "favorite": false,
+      "title": "Vegetable Stir Fry",
+      "body": "Ingredients: Mixed vegetables (broccoli, carrots, bell peppers, snap peas), tofu, soy sauce, sesame oil, garlic, ginger, cornstarch, vegetable oil, rice.\n\nInstructions: Press and cube tofu, then pan-fry until golden. In a wok, stir-fry garlic and ginger in vegetable oil. Add vegetables and cook until crisp-tender. Mix soy sauce, sesame oil, and cornstarch; add to wok. Add tofu back in and stir to coat. Serve over cooked rice.",
+      "mealTypeId": 5,
+      "userId": 17,
+      "authorFavorite": false,
+      "favorites": 1,
+      "time": 30,
+      "servings": 4,
+      "date": "7/26/2024"
+    },
+    {
+      "id": 16,
+      "title": "Banana Bread",
+      "body": "Ingredients: 3 ripe bananas, 1/3 cup melted butter, 1/2 cup sugar, 1 egg, 1 tsp vanilla extract, 1 tsp baking soda, 1/4 tsp salt, 1 1/2 cups all-purpose flour, 1/2 cup chopped walnuts (optional).\n\nInstructions: Preheat oven to 350°F (175°C). Mash bananas in a large bowl. Mix in melted butter, sugar, egg, and vanilla. Sprinkle baking soda and salt over mixture and stir in. Add flour and mix until just combined. Fold in walnuts if using.\n\nPour into greased loaf pan and bake for 50-60 minutes. Let cool before slicing.",
+      "mealTypeId": 4,
+      "userId": 17,
+      "authorFavorite": false,
+      "favorites": 4,
+      "time": 70,
+      "servings": 8,
+      "date": "7/24/2024"
+    },
+    {
+      "id": 17,
+      "title": "Greek Yogurt Parfait",
+      "body": "Ingredients: 2 cups Greek yogurt, 1 cup mixed berries, 1/4 cup granola, 2 tbsp honey.\n\nInstructions: In two glasses or bowls, layer Greek yogurt, berries, and granola. Repeat layers until all ingredients are used. Drizzle honey over the top. Serve immediately or chill until ready to eat.",
+      "mealTypeId": 8,
+      "userId": 17,
+      "authorFavorite": false,
+      "favorites": 3,
       "time": 10,
-      "servings": 2
+      "servings": 2,
+      "date": "7/26/2024"
+    },
+    {
+      "id": 18,
+      "title": "Homemade Pizza",
+      "body": "Ingredients: Pizza dough, tomato sauce, mozzarella cheese, toppings of choice (e.g., pepperoni, mushrooms, bell peppers), olive oil, dried oregano.\n\nInstructions: Preheat oven to 450°F (230°C). Roll out pizza dough on a floured surface. Spread tomato sauce over the dough, leaving a border for the crust. Sprinkle mozzarella cheese and add desired toppings. Drizzle with olive oil and sprinkle with oregano.\n\nBake for 12-15 minutes until crust is golden and cheese is bubbly. Let cool slightly before slicing and serving.",
+      "mealTypeId": 1,
+      "userId": 17,
+      "authorFavorite": true,
+      "favorites": 6,
+      "time": 30,
+      "servings": 4,
+      "date": "7/30/2024"
+    },
+    {
+      "id": 19,
+      "title": "Avocado Toast",
+      "body": "Ingredients: Whole grain bread, ripe avocado, lemon juice, red pepper flakes, salt, pepper, extra virgin olive oil, optional toppings (e.g., sliced tomato, poached egg).\n\nInstructions: Toast bread slices until golden brown. Mash avocado in a bowl with lemon juice, salt, and pepper. Spread mashed avocado on toasted bread. Sprinkle with red pepper flakes and drizzle with olive oil. Add optional toppings if desired. Serve immediately.",
+      "mealTypeId": 3,
+      "userId": 17,
+      "authorFavorite": true,
+      "favorites": 3,
+      "time": 10,
+      "servings": 2,
+      "date": "7/26/2024"
+    },
+    {
+      "id": 20,
+      "title": "Fruit Smoothie",
+      "body": "Ingredients: 1 banana, 1 cup mixed berries, 1 cup Greek yogurt, 1 cup milk (dairy or plant-based), 1 tbsp honey, 1 cup ice cubes.\n\nInstructions: Add all ingredients to a blender. Blend on high speed until smooth and creamy. If too thick, add more milk; if too thin, add more ice. Taste and adjust sweetness with honey if needed. Pour into glasses and serve immediately.",
+      "mealTypeId": 10,
+      "userId": 17,
+      "authorFavorite": false,
+      "favorites": 1,
+      "time": 5,
+      "servings": 2,
+      "date": "7/26/2024"
+    },
+    {
+      "title": "Toast",
+      "body": "Toast toast & then toast to toast.",
+      "mealTypeId": 10,
+      "userId": 16,
+      "authorFavorite": true,
+      "favorites": 1,
+      "time": 3,
+      "servings": 1,
+      "date": "7/26/2024",
+      "id": 21
+    },
+    {
+      "id": 22,
+      "title": "Mediterranean Salmon",
+      "body": "Cook Salmon",
+      "mealTypeId": 14,
+      "userId": 17,
+      "authorFavorite": true,
+      "favorites": 1,
+      "time": 15,
+      "servings": 1,
+      "date": "7/30/2024"
     }
   ],
   "ingredientsForRecipe": [
     {
-      "id": 1,
-      "ingredientId": 2,
-      "recipeId": 1,
-      "quantity": 2
+      "ingredientId": 150,
+      "recipeId": "25",
+      "quantity": 1,
+      "id": 1
     },
     {
-      "id": 2,
-      "ingredientId": 3,
-      "recipeId": 1,
-      "quantity": 2
+      "ingredientId": 37,
+      "recipeId": "25",
+      "quantity": 2,
+      "id": 2
     },
     {
-      "id": 3,
+      "ingredientId": 24,
+      "recipeId": "25",
+      "quantity": 1,
+      "id": 3
+    },
+    {
+      "ingredientId": 29,
+      "recipeId": 32,
+      "quantity": 1,
+      "id": 4
+    },
+    {
+      "ingredientId": 16,
+      "recipeId": "33",
+      "quantity": 1,
+      "id": 5
+    },
+    {
+      "ingredientId": 245,
+      "recipeId": "17",
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "ingredientId": 131,
+      "recipeId": "17",
+      "quantity": 1,
+      "id": 7
+    },
+    {
+      "ingredientId": 77,
+      "recipeId": "17",
+      "quantity": 1,
+      "id": 8
+    },
+    {
+      "ingredientId": 246,
+      "recipeId": "17",
+      "quantity": 2,
+      "id": 9
+    },
+    {
       "ingredientId": 1,
-      "recipeId": 1,
-      "quantity": 1
+      "recipeId": "17",
+      "quantity": 2,
+      "id": 10
     },
     {
-      "id": 4,
-      "ingredientId": 5,
-      "recipeId": 2,
-      "quantity": 5
+      "ingredientId": 43,
+      "recipeId": "17",
+      "quantity": 1,
+      "id": 11
     },
     {
-      "id": 5,
-      "ingredientId": 6,
-      "recipeId": 3,
-      "quantity": 2
+      "ingredientId": 74,
+      "recipeId": "17",
+      "quantity": 1,
+      "id": 12
     },
     {
-      "id": 6,
-      "ingredientId": 3,
-      "recipeId": 6,
-      "quantity": 3
+      "ingredientId": 81,
+      "recipeId": "17",
+      "quantity": 1,
+      "id": 13
     },
     {
-      "id": 7,
-      "ingredientId": 4,
-      "recipeId": 6,
-      "quantity": 1
+      "ingredientId": 92,
+      "recipeId": "17",
+      "quantity": 1,
+      "id": 14
     },
     {
-      "id": 8,
-      "ingredientId": 7,
-      "recipeId": 7,
-      "quantity": 1
-    },
-    {
-      "id": 9,
-      "ingredientId": 8,
-      "recipeId": 7,
-      "quantity": 1
-    },
-    {
-      "id": 10,
-      "ingredientId": 9,
-      "recipeId": 9,
-      "quantity": 1
-    },
-    {
-      "id": 11,
-      "ingredientId": 10,
-      "recipeId": 5,
-      "quantity": 2
-    },
-    {
-      "id": 12,
       "ingredientId": 11,
-      "recipeId": 8,
-      "quantity": 1
+      "recipeId": "17",
+      "quantity": 1,
+      "id": 15
     },
     {
-      "id": 13,
-      "ingredientId": 12,
+      "ingredientId": 61,
+      "recipeId": "17",
+      "quantity": 1,
+      "id": 16
+    },
+    {
+      "ingredientId": 43,
+      "recipeId": "20",
+      "quantity": 1,
+      "id": 17
+    },
+    {
+      "ingredientId": 11,
+      "recipeId": "20",
+      "quantity": 1,
+      "id": 18
+    },
+    {
+      "ingredientId": 61,
+      "recipeId": "20",
+      "quantity": 1,
+      "id": 19
+    },
+    {
+      "ingredientId": 10,
+      "recipeId": "20",
+      "quantity": 2,
+      "id": 20
+    },
+    {
+      "ingredientId": 130,
+      "recipeId": "20",
+      "quantity": 1,
+      "id": 21
+    },
+    {
+      "ingredientId": 9,
+      "recipeId": "27",
+      "quantity": 2,
+      "id": 22
+    },
+    {
+      "ingredientId": 4,
+      "recipeId": "27",
+      "quantity": 1,
+      "id": 23
+    },
+    {
+      "ingredientId": 130,
+      "recipeId": "27",
+      "quantity": 1,
+      "id": 24
+    },
+    {
+      "ingredientId": 3,
+      "recipeId": "27",
+      "quantity": 1,
+      "id": 25
+    },
+    {
+      "ingredientId": 249,
+      "recipeId": "27",
+      "quantity": 1,
+      "id": 26
+    }
+  ],
+  "recipeLikes": [
+    {
+      "recipeId": 1,
+      "userId": 16,
+      "id": 2
+    },
+    {
       "recipeId": 12,
-      "quantity": 2
+      "userId": 17,
+      "id": 3
     },
     {
-      "id": 14,
-      "ingredientId": 13,
-      "recipeId": 9,
-      "quantity": 1
-    },
-    {
-      "id": 15,
-      "ingredientId": 15,
-      "recipeId": 15,
-      "quantity": 2
+      "recipeId": 12,
+      "userId": 17,
+      "id": 4
     }
   ]
 }
