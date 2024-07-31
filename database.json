@@ -76,9 +76,9 @@
       "email": "noah.thomas@email.com"
     },
     {
-      "email": "michael@michaelthinks.co",
-      "name": "Michael Galo",
-      "id": 16
+      "id": 16,
+      "name": "Michael Danger Galo",
+      "email": "michael@michaelthinks.co"
     },
     {
       "id": 17,
@@ -1245,6 +1245,106 @@
       "id": 249,
       "name": "Pizza Dough",
       "grocerySubTypeId": 13
+    },
+    {
+      "id": 250,
+      "name": "Steak",
+      "grocerySubTypeId": 4
+    },
+    {
+      "id": 251,
+      "name": "Soy Sauce",
+      "grocerySubTypeId": 11
+    },
+    {
+      "id": 252,
+      "name": "Cherry Tomatoes",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 253,
+      "name": "Riccota Cheese",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 254,
+      "name": "Arborio Rice",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 255,
+      "name": "Lemon",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 256,
+      "name": "Lemon Juice",
+      "grocerySubTypeId": 11
+    },
+    {
+      "id": 257,
+      "name": "Sesame Seeds",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 258,
+      "name": "Flour",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 259,
+      "name": "Garbanzo Beans",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 260,
+      "name": "Red Onion",
+      "grocerySubTypeId": 2
+    },
+    {
+      "id": 261,
+      "name": "Feta",
+      "grocerySubTypeId": 1
+    },
+    {
+      "id": 262,
+      "name": "Kalamata Olives",
+      "grocerySubTypeId": 7
+    },
+    {
+      "id": 263,
+      "name": "Apple Cider Vinegar",
+      "grocerySubTypeId": 11
+    },
+    {
+      "id": 264,
+      "name": "BBQ Sauce",
+      "grocerySubTypeId": 11
+    },
+    {
+      "id": 265,
+      "name": "Green Curry Paste",
+      "grocerySubTypeId": 11
+    },
+    {
+      "id": 266,
+      "name": "Fish Sauce",
+      "grocerySubTypeId": 11
+    },
+    {
+      "id": 267,
+      "name": "Lime Juice",
+      "grocerySubTypeId": 11
+    },
+    {
+      "id": 268,
+      "name": "Cereal",
+      "grocerySubTypeId": 8
+    },
+    {
+      "id": 269,
+      "name": "Spring Mix",
+      "grocerySubTypeId": 2
     }
   ],
   "recipes": [
@@ -1255,70 +1355,97 @@
       "mealTypeId": 2,
       "userId": 6,
       "authorFavorite": true,
-      "favorites": 1,
+      "favorites": 2,
       "time": 30,
       "servings": 4,
-      "date": "7/30/2024"
+      "date": "7/31/2024",
+      "user": {
+        "id": 6,
+        "name": "Sarah Lee",
+        "email": "sarah.lee@email.com"
+      },
+      "mealType": {
+        "id": 2,
+        "name": "Chinese"
+      }
     },
     {
       "id": 2,
       "title": "Classic Beef Lasagna",
       "body": "Instructions:\n1. Brown ground beef with onions and garlic.\n2. Add tomato sauce and Italian seasonings, simmer.\n3. Mix ricotta, egg, and parmesan cheese.\n4. Layer lasagna noodles, meat sauce, ricotta mix, and mozzarella.\n5. Repeat layers, ending with mozzarella on top.\n6. Bake at 375°F for 45 minutes.\n7. Let rest for 10 minutes before serving.",
-      "mealTypeId": 3,
+      "mealTypeId": 1,
       "userId": 7,
       "authorFavorite": false,
       "favorites": 0,
       "time": 90,
       "servings": 8,
-      "date": "7/30/2024"
+      "date": "7/31/2024"
     },
     {
       "id": 3,
       "title": "Mediterranean Chickpea Salad",
       "body": "Instructions:\n1. Drain and rinse canned chickpeas.\n2. Chop cucumber, tomatoes, red onion, and bell pepper.\n3. Mix vegetables with chickpeas in a large bowl.\n4. Add crumbled feta cheese and kalamata olives.\n5. Whisk olive oil, lemon juice, garlic, and herbs for dressing.\n6. Pour dressing over salad and toss gently.\n7. Chill for at least 30 minutes before serving.",
-      "mealTypeId": 1,
+      "mealTypeId": 8,
       "userId": 8,
       "authorFavorite": true,
       "favorites": 1,
       "time": 20,
       "servings": 6,
-      "date": "7/30/2024"
+      "date": "7/31/2024"
     },
     {
       "id": 4,
       "title": "Homemade Margherita Pizza",
       "body": "Instructions:\n1. Preheat oven to 450°F with a pizza stone.\n2. Roll out pizza dough on a floured surface.\n3. Spread a thin layer of tomato sauce on the dough.\n4. Add sliced fresh mozzarella and halved cherry tomatoes.\n5. Drizzle with olive oil and sprinkle with salt.\n6. Bake for 12-15 minutes until crust is golden.\n7. Top with fresh basil leaves before serving.",
-      "mealTypeId": 2,
+      "mealTypeId": 1,
       "userId": 9,
       "authorFavorite": false,
       "favorites": 0,
       "time": 30,
       "servings": 4,
-      "date": "7/30/2024"
+      "date": "7/31/2024"
     },
     {
       "id": 5,
       "title": "Creamy Mushroom Risotto",
       "body": "Instructions:\n1. Sauté mushrooms in butter until golden, set aside.\n2. In same pan, sauté onions until translucent.\n3. Add Arborio rice, stir to coat with oil.\n4. Gradually add warm broth, stirring constantly.\n5. Cook until rice is creamy and al dente.\n6. Stir in mushrooms, parmesan cheese, and parsley.\n7. Season with salt and pepper, serve immediately.",
-      "mealTypeId": 2,
+      "mealTypeId": 1,
       "userId": 10,
       "authorFavorite": true,
-      "favorites": 1,
+      "favorites": 2,
       "time": 40,
       "servings": 4,
-      "date": "7/30/2024"
+      "date": "7/31/2024",
+      "user": {
+        "id": 10,
+        "name": "Olivia Taylor",
+        "email": "olivia.taylor@email.com"
+      },
+      "mealType": {
+        "id": 1,
+        "name": "Italian"
+      }
     },
     {
       "id": 6,
       "title": "Spicy Thai Green Curry",
       "body": "Instructions:\n1. Heat coconut oil in a large pot.\n2. Add green curry paste and cook until fragrant.\n3. Pour in coconut milk and bring to a simmer.\n4. Add diced chicken or tofu and vegetables.\n5. Simmer until chicken is cooked and veggies are tender.\n6. Stir in fish sauce, lime juice, and brown sugar.\n7. Serve over jasmine rice with fresh cilantro.",
-      "mealTypeId": 3,
+      "mealTypeId": 7,
       "userId": 11,
       "authorFavorite": false,
-      "favorites": 0,
+      "favorites": 1,
       "time": 35,
       "servings": 4,
-      "date": "7/30/2024"
+      "date": "7/31/2024",
+      "user": {
+        "id": 11,
+        "name": "Ryan Anderson",
+        "email": "ryan.anderson@email.com"
+      },
+      "mealType": {
+        "id": 7,
+        "name": "Thai"
+      }
     },
     {
       "id": 7,
@@ -1330,7 +1457,7 @@
       "favorites": 1,
       "time": 15,
       "servings": 2,
-      "date": "7/30/2024"
+      "date": "7/31/2024"
     },
     {
       "id": 8,
@@ -1342,7 +1469,7 @@
       "favorites": 0,
       "time": 25,
       "servings": 4,
-      "date": "7/30/2024"
+      "date": "7/31/2024"
     },
     {
       "id": 9,
@@ -1354,31 +1481,19 @@
       "favorites": 1,
       "time": 30,
       "servings": 4,
-      "date": "7/30/2024"
+      "date": "7/31/2024"
     },
     {
       "id": 10,
       "title": "Slow Cooker Pulled Pork",
       "body": "Instructions:\n1. Rub pork shoulder with a mix of brown sugar, paprika, and spices.\n2. Place pork in slow cooker with sliced onions.\n3. Pour in barbecue sauce and apple cider vinegar.\n4. Cook on low for 8-10 hours until meat is tender.\n5. Shred pork with two forks, discarding excess fat.\n6. Mix shredded pork with cooking juices.\n7. Serve on buns with coleslaw and extra BBQ sauce.",
-      "mealTypeId": 3,
+      "mealTypeId": 10,
       "userId": 15,
       "authorFavorite": false,
       "favorites": 0,
       "time": 600,
       "servings": 8,
-      "date": "7/30/2024"
-    },
-    {
-      "id": 11,
-      "title": "Janet's Chili",
-      "body": "Instructions:\n1. Cook ground beef in dutch oven. Season with S&P. Once it cooks, drain in a colander and set aside. Leave meat oils in pot.\n2. In a separate pot, cook the elbow pasta in salted water with olive oil. Once done, drain and put back into pot. Set aside.\n3. In the dutch oven sauté onion, garlic, red pepper. Season with cumin, S&P, and garlic powder.\n4. Add can of tomatoes chopped and crushed. Wash black and kidney beans and cooked meat back into the dutch oven.\n5. Add seasoning: chili powder, red pepper flakes, brown sugar and a little bit of water.\n6. Cook down and season to taste.\n7. Once done, read to serve chili mix on top of noodles. Add any extra desired toppings.\n\n\n",
-      "mealTypeId": 3,
-      "userId": 17,
-      "authorFavorite": true,
-      "favorites": 1,
-      "time": 45,
-      "servings": 6,
-      "date": "7/29/2024"
+      "date": "7/31/2024"
     },
     {
       "id": 12,
@@ -1387,10 +1502,10 @@
       "mealTypeId": 10,
       "userId": 16,
       "authorFavorite": true,
-      "favorites": 3,
+      "favorites": 2,
       "time": "",
       "servings": 1,
-      "date": "7/24/2024",
+      "date": "7/31/2024",
       "user": {
         "email": "michael@michaelthinks.co",
         "name": "Michael Galo",
@@ -1404,100 +1519,65 @@
     {
       "id": 13,
       "title": "Spaghetti",
-      "body": "Ingredients:\n1lb of ground beef or ground turkey, 1 onion, 2 bell peppers, 2 cloves of garlic, balsamic vinaigrette, fresh basil, oregano, thyme, garlic powder, paprika, red pepper flakes, salt, pepper, pasta sauce and pasta of choice.\n\nInstructions:\n1. Cook the ground meat in the dutch oven. Season with salt and pepper, garlic, oregano.\n2. Drain and let sit in colander.\n3. Add olive oil to meat au jus and sauce garlic, onions and peppers. Season oregano, thyme, paprika, red pepper flakes and salt and pepper.\n4. Add pasta sauce and turn down the heat.\n5. Add meat back into the mix.\n6. Add balsamic vinaigrette and chopped fresh basil to cook down.\n7. Cook pasta, drain and ready to serve.\n\nTip: always better the second night.\n",
+      "body": "Instructions:\n1. Cook the ground meat in the dutch oven. Season with salt and pepper, garlic, oregano.\n2. Drain and let sit in colander.\n3. Add olive oil to meat au jus and sauce garlic, onions and peppers. Season oregano, thyme, paprika, red pepper flakes and salt and pepper.\n4. Add pasta sauce and turn down the heat.\n5. Add meat back into the mix.\n6. Add balsamic vinaigrette and chopped fresh basil to cook down.\n7. Cook pasta, drain and ready to serve.\n\nTip: always better the second night.\n",
       "mealTypeId": 1,
       "userId": 17,
       "authorFavorite": true,
       "favorites": 1,
       "time": 40,
       "servings": 5,
-      "date": "7/29/2024"
+      "date": "7/31/2024"
     },
     {
       "id": 14,
       "title": "Grilled Chicken Salad",
-      "body": "Ingredients: 2 chicken breasts, mixed salad greens, cherry tomatoes, cucumber, red onion, feta cheese, olive oil, lemon juice, salt, pepper, dried oregano.\n\nInstructions: Season chicken with salt, pepper, and oregano. Grill until cooked through. Chop vegetables and mix in a large bowl with salad greens. Slice grilled chicken and add to the salad. Crumble feta cheese over the top.\n\nDress with a mixture of olive oil and lemon juice. Toss and serve immediately.",
+      "body": "Instructions: Season chicken with salt, pepper, and oregano. Grill until cooked through. Chop vegetables and mix in a large bowl with salad greens. Slice grilled chicken and add to the salad. Crumble feta cheese over the top.\n\nDress with a mixture of olive oil and lemon juice. Toss and serve immediately.",
       "mealTypeId": 8,
       "userId": 17,
       "authorFavorite": false,
       "favorites": 2,
       "time": 25,
       "servings": 2,
-      "date": "7/26/2024"
-    },
-    {
-      "id": 15,
-      "title": "Vegetable Stir Fry",
-      "body": "Ingredients: Mixed vegetables (broccoli, carrots, bell peppers, snap peas), tofu, soy sauce, sesame oil, garlic, ginger, cornstarch, vegetable oil, rice.\n\nInstructions: Press and cube tofu, then pan-fry until golden. In a wok, stir-fry garlic and ginger in vegetable oil. Add vegetables and cook until crisp-tender. Mix soy sauce, sesame oil, and cornstarch; add to wok. Add tofu back in and stir to coat. Serve over cooked rice.",
-      "mealTypeId": 5,
-      "userId": 17,
-      "authorFavorite": false,
-      "favorites": 1,
-      "time": 30,
-      "servings": 4,
-      "date": "7/26/2024"
+      "date": "7/31/2024"
     },
     {
       "id": 16,
       "title": "Banana Bread",
-      "body": "Ingredients: 3 ripe bananas, 1/3 cup melted butter, 1/2 cup sugar, 1 egg, 1 tsp vanilla extract, 1 tsp baking soda, 1/4 tsp salt, 1 1/2 cups all-purpose flour, 1/2 cup chopped walnuts (optional).\n\nInstructions: Preheat oven to 350°F (175°C). Mash bananas in a large bowl. Mix in melted butter, sugar, egg, and vanilla. Sprinkle baking soda and salt over mixture and stir in. Add flour and mix until just combined. Fold in walnuts if using.\n\nPour into greased loaf pan and bake for 50-60 minutes. Let cool before slicing.",
+      "body": "Instructions: Preheat oven to 350°F (175°C). Mash bananas in a large bowl. Mix in melted butter, sugar, egg, and vanilla. Sprinkle baking soda and salt over mixture and stir in. Add flour and mix until just combined. Fold in walnuts if using.\n\nPour into greased loaf pan and bake for 50-60 minutes. Let cool before slicing.",
       "mealTypeId": 4,
       "userId": 17,
       "authorFavorite": false,
       "favorites": 4,
       "time": 70,
       "servings": 8,
-      "date": "7/24/2024"
+      "date": "7/31/2024"
     },
     {
       "id": 17,
-      "title": "Greek Yogurt Parfait",
-      "body": "Ingredients: 2 cups Greek yogurt, 1 cup mixed berries, 1/4 cup granola, 2 tbsp honey.\n\nInstructions: In two glasses or bowls, layer Greek yogurt, berries, and granola. Repeat layers until all ingredients are used. Drizzle honey over the top. Serve immediately or chill until ready to eat.",
-      "mealTypeId": 8,
-      "userId": 17,
-      "authorFavorite": false,
-      "favorites": 3,
-      "time": 10,
-      "servings": 2,
-      "date": "7/26/2024"
-    },
-    {
-      "id": 18,
-      "title": "Homemade Pizza",
-      "body": "Ingredients: Pizza dough, tomato sauce, mozzarella cheese, toppings of choice (e.g., pepperoni, mushrooms, bell peppers), olive oil, dried oregano.\n\nInstructions: Preheat oven to 450°F (230°C). Roll out pizza dough on a floured surface. Spread tomato sauce over the dough, leaving a border for the crust. Sprinkle mozzarella cheese and add desired toppings. Drizzle with olive oil and sprinkle with oregano.\n\nBake for 12-15 minutes until crust is golden and cheese is bubbly. Let cool slightly before slicing and serving.",
-      "mealTypeId": 1,
+      "title": "Janet's Chili",
+      "body": "Instructions:\n1. Cook ground beef in dutch oven. Season with S&P. Once it cooks, drain in a colander and set aside. Leave meat oils in pot.\n2. In a separate pot, cook the elbow pasta in salted water with olive oil. Once done, drain and put back into pot. Set aside.\n3. In the dutch oven sauté onion, garlic, red pepper. Season with cumin, S&P, and garlic powder.\n4. Add can of tomatoes chopped and crushed. Wash black and kidney beans and cooked meat back into the dutch oven.\n5. Add seasoning: chili powder, red pepper flakes, brown sugar and a little bit of water.\n6. Cook down and season to taste.\n7. Once done, read to serve chili mix on top of noodles. Add any extra desired toppings.",
+      "mealTypeId": 3,
       "userId": 17,
       "authorFavorite": true,
-      "favorites": 6,
-      "time": 30,
-      "servings": 4,
-      "date": "7/30/2024"
+      "favorites": 4,
+      "time": 45,
+      "servings": 6,
+      "date": "7/31/2024"
     },
     {
       "id": 19,
       "title": "Avocado Toast",
-      "body": "Ingredients: Whole grain bread, ripe avocado, lemon juice, red pepper flakes, salt, pepper, extra virgin olive oil, optional toppings (e.g., sliced tomato, poached egg).\n\nInstructions: Toast bread slices until golden brown. Mash avocado in a bowl with lemon juice, salt, and pepper. Spread mashed avocado on toasted bread. Sprinkle with red pepper flakes and drizzle with olive oil. Add optional toppings if desired. Serve immediately.",
+      "body": "Instructions: Toast bread slices until golden brown. Mash avocado in a bowl with lemon juice, salt, and pepper. Spread mashed avocado on toasted bread. Sprinkle with red pepper flakes and drizzle with olive oil. Add optional toppings if desired. Serve immediately.",
       "mealTypeId": 3,
       "userId": 17,
       "authorFavorite": true,
       "favorites": 3,
       "time": 10,
       "servings": 2,
-      "date": "7/26/2024"
+      "date": "7/31/2024"
     },
     {
-      "id": 20,
-      "title": "Fruit Smoothie",
-      "body": "Ingredients: 1 banana, 1 cup mixed berries, 1 cup Greek yogurt, 1 cup milk (dairy or plant-based), 1 tbsp honey, 1 cup ice cubes.\n\nInstructions: Add all ingredients to a blender. Blend on high speed until smooth and creamy. If too thick, add more milk; if too thin, add more ice. Taste and adjust sweetness with honey if needed. Pour into glasses and serve immediately.",
-      "mealTypeId": 10,
-      "userId": 17,
-      "authorFavorite": false,
-      "favorites": 1,
-      "time": 5,
-      "servings": 2,
-      "date": "7/26/2024"
-    },
-    {
+      "id": 21,
       "title": "Toast",
       "body": "Toast toast & then toast to toast.",
       "mealTypeId": 10,
@@ -1506,53 +1586,10 @@
       "favorites": 1,
       "time": 3,
       "servings": 1,
-      "date": "7/26/2024",
-      "id": 21
-    },
-    {
-      "id": 22,
-      "title": "Mediterranean Salmon",
-      "body": "Cook Salmon",
-      "mealTypeId": 14,
-      "userId": 17,
-      "authorFavorite": true,
-      "favorites": 1,
-      "time": 15,
-      "servings": 1,
-      "date": "7/30/2024"
+      "date": "7/31/2024"
     }
   ],
   "ingredientsForRecipe": [
-    {
-      "ingredientId": 150,
-      "recipeId": "25",
-      "quantity": 1,
-      "id": 1
-    },
-    {
-      "ingredientId": 37,
-      "recipeId": "25",
-      "quantity": 2,
-      "id": 2
-    },
-    {
-      "ingredientId": 24,
-      "recipeId": "25",
-      "quantity": 1,
-      "id": 3
-    },
-    {
-      "ingredientId": 29,
-      "recipeId": 32,
-      "quantity": 1,
-      "id": 4
-    },
-    {
-      "ingredientId": 16,
-      "recipeId": "33",
-      "quantity": 1,
-      "id": 5
-    },
     {
       "ingredientId": 245,
       "recipeId": "17",
@@ -1620,64 +1657,658 @@
       "id": 16
     },
     {
-      "ingredientId": 43,
-      "recipeId": "20",
+      "ingredientId": 250,
+      "recipeId": "8",
       "quantity": 1,
-      "id": 17
-    },
-    {
-      "ingredientId": 11,
-      "recipeId": "20",
-      "quantity": 1,
-      "id": 18
-    },
-    {
-      "ingredientId": 61,
-      "recipeId": "20",
-      "quantity": 1,
-      "id": 19
-    },
-    {
-      "ingredientId": 10,
-      "recipeId": "20",
-      "quantity": 2,
-      "id": 20
-    },
-    {
-      "ingredientId": 130,
-      "recipeId": "20",
-      "quantity": 1,
-      "id": 21
-    },
-    {
-      "ingredientId": 9,
-      "recipeId": "27",
-      "quantity": 2,
       "id": 22
     },
     {
-      "ingredientId": 4,
-      "recipeId": "27",
+      "ingredientId": 19,
+      "recipeId": "8",
       "quantity": 1,
       "id": 23
     },
     {
-      "ingredientId": 130,
-      "recipeId": "27",
+      "ingredientId": 251,
+      "recipeId": "8",
       "quantity": 1,
       "id": 24
     },
     {
-      "ingredientId": 3,
-      "recipeId": "27",
+      "ingredientId": 61,
+      "recipeId": "8",
       "quantity": 1,
       "id": 25
     },
     {
-      "ingredientId": 249,
-      "recipeId": "27",
+      "ingredientId": 128,
+      "recipeId": "8",
       "quantity": 1,
       "id": 26
+    },
+    {
+      "ingredientId": 245,
+      "recipeId": "7",
+      "quantity": 2,
+      "id": 27
+    },
+    {
+      "ingredientId": 4,
+      "recipeId": "7",
+      "quantity": 1,
+      "id": 29
+    },
+    {
+      "ingredientId": 3,
+      "recipeId": "7",
+      "quantity": 1,
+      "id": 30
+    },
+    {
+      "ingredientId": 248,
+      "recipeId": "7",
+      "quantity": 1,
+      "id": 31
+    },
+    {
+      "ingredientId": 252,
+      "recipeId": "7",
+      "quantity": 2,
+      "id": 32
+    },
+    {
+      "ingredientId": 130,
+      "recipeId": "2",
+      "quantity": 1,
+      "id": 33
+    },
+    {
+      "ingredientId": 136,
+      "recipeId": "2",
+      "quantity": 1,
+      "id": 34
+    },
+    {
+      "ingredientId": 3,
+      "recipeId": "2",
+      "quantity": 1,
+      "id": 35
+    },
+    {
+      "ingredientId": 11,
+      "recipeId": "2",
+      "quantity": 1,
+      "id": 36
+    },
+    {
+      "ingredientId": 15,
+      "recipeId": "2",
+      "quantity": 1,
+      "id": 37
+    },
+    {
+      "ingredientId": 61,
+      "recipeId": "2",
+      "quantity": 1,
+      "id": 38
+    },
+    {
+      "ingredientId": 32,
+      "recipeId": "2",
+      "quantity": 1,
+      "id": 39
+    },
+    {
+      "ingredientId": 253,
+      "recipeId": "2",
+      "quantity": 1,
+      "id": 40
+    },
+    {
+      "ingredientId": 12,
+      "recipeId": "5",
+      "quantity": 1,
+      "id": 41
+    },
+    {
+      "ingredientId": 30,
+      "recipeId": "5",
+      "quantity": 1,
+      "id": 42
+    },
+    {
+      "ingredientId": 11,
+      "recipeId": "5",
+      "quantity": 1,
+      "id": 43
+    },
+    {
+      "ingredientId": 34,
+      "recipeId": "5",
+      "quantity": 1,
+      "id": 44
+    },
+    {
+      "ingredientId": 254,
+      "recipeId": "5",
+      "quantity": 1,
+      "id": 45
+    },
+    {
+      "ingredientId": 64,
+      "recipeId": "5",
+      "quantity": 1,
+      "id": 46
+    },
+    {
+      "ingredientId": 5,
+      "recipeId": "4",
+      "quantity": 1,
+      "id": 47
+    },
+    {
+      "ingredientId": 252,
+      "recipeId": "4",
+      "quantity": 2,
+      "id": 48
+    },
+    {
+      "ingredientId": 3,
+      "recipeId": "4",
+      "quantity": 1,
+      "id": 49
+    },
+    {
+      "ingredientId": 4,
+      "recipeId": "4",
+      "quantity": 1,
+      "id": 50
+    },
+    {
+      "ingredientId": 249,
+      "recipeId": "4",
+      "quantity": 1,
+      "id": 51
+    },
+    {
+      "ingredientId": 130,
+      "recipeId": "4",
+      "quantity": 1,
+      "id": 52
+    },
+    {
+      "ingredientId": 16,
+      "recipeId": "1",
+      "quantity": 1,
+      "id": 53
+    },
+    {
+      "ingredientId": 94,
+      "recipeId": "1",
+      "quantity": 1,
+      "id": 54
+    },
+    {
+      "ingredientId": 128,
+      "recipeId": "1",
+      "quantity": 1,
+      "id": 55
+    },
+    {
+      "ingredientId": 256,
+      "recipeId": "1",
+      "quantity": 1,
+      "id": 56
+    },
+    {
+      "ingredientId": 19,
+      "recipeId": "1",
+      "quantity": 1,
+      "id": 57
+    },
+    {
+      "ingredientId": 61,
+      "recipeId": "1",
+      "quantity": 1,
+      "id": 58
+    },
+    {
+      "ingredientId": 257,
+      "recipeId": "1",
+      "quantity": 1,
+      "id": 59
+    },
+    {
+      "ingredientId": 32,
+      "recipeId": "9",
+      "quantity": 1,
+      "id": 60
+    },
+    {
+      "ingredientId": 88,
+      "recipeId": "9",
+      "quantity": 1,
+      "id": 61
+    },
+    {
+      "ingredientId": 30,
+      "recipeId": "9",
+      "quantity": 1,
+      "id": 62
+    },
+    {
+      "ingredientId": 95,
+      "recipeId": "9",
+      "quantity": 1,
+      "id": 63
+    },
+    {
+      "ingredientId": 31,
+      "recipeId": "9",
+      "quantity": 1,
+      "id": 64
+    },
+    {
+      "ingredientId": 255,
+      "recipeId": "9",
+      "quantity": 1,
+      "id": 65
+    },
+    {
+      "ingredientId": 8,
+      "recipeId": "9",
+      "quantity": 1,
+      "id": 66
+    },
+    {
+      "ingredientId": 7,
+      "recipeId": "9",
+      "quantity": 1,
+      "id": 67
+    },
+    {
+      "ingredientId": 24,
+      "recipeId": "9",
+      "quantity": 1,
+      "id": 68
+    },
+    {
+      "ingredientId": 258,
+      "recipeId": "9",
+      "quantity": 1,
+      "id": 69
+    },
+    {
+      "ingredientId": 259,
+      "recipeId": "3",
+      "quantity": 1,
+      "id": 70
+    },
+    {
+      "ingredientId": 59,
+      "recipeId": "3",
+      "quantity": 1,
+      "id": 71
+    },
+    {
+      "ingredientId": 260,
+      "recipeId": "3",
+      "quantity": 1,
+      "id": 72
+    },
+    {
+      "ingredientId": 10,
+      "recipeId": "3",
+      "quantity": 1,
+      "id": 73
+    },
+    {
+      "ingredientId": 261,
+      "recipeId": "3",
+      "quantity": 1,
+      "id": 74
+    },
+    {
+      "ingredientId": 256,
+      "recipeId": "3",
+      "quantity": 1,
+      "id": 75
+    },
+    {
+      "ingredientId": 5,
+      "recipeId": "3",
+      "quantity": 1,
+      "id": 76
+    },
+    {
+      "ingredientId": 61,
+      "recipeId": "3",
+      "quantity": 1,
+      "id": 77
+    },
+    {
+      "ingredientId": 262,
+      "recipeId": "3",
+      "quantity": 1,
+      "id": 78
+    },
+    {
+      "ingredientId": 40,
+      "recipeId": "10",
+      "quantity": 1,
+      "id": 79
+    },
+    {
+      "ingredientId": 73,
+      "recipeId": "10",
+      "quantity": 1,
+      "id": 80
+    },
+    {
+      "ingredientId": 11,
+      "recipeId": "10",
+      "quantity": 1,
+      "id": 81
+    },
+    {
+      "ingredientId": 8,
+      "recipeId": "10",
+      "quantity": 1,
+      "id": 82
+    },
+    {
+      "ingredientId": 263,
+      "recipeId": "10",
+      "quantity": 1,
+      "id": 83
+    },
+    {
+      "ingredientId": 264,
+      "recipeId": "10",
+      "quantity": 1,
+      "id": 84
+    },
+    {
+      "ingredientId": 96,
+      "recipeId": "6",
+      "quantity": 1,
+      "id": 85
+    },
+    {
+      "ingredientId": 109,
+      "recipeId": "6",
+      "quantity": 1,
+      "id": 86
+    },
+    {
+      "ingredientId": 14,
+      "recipeId": "6",
+      "quantity": 1,
+      "id": 87
+    },
+    {
+      "ingredientId": 265,
+      "recipeId": "6",
+      "quantity": 1,
+      "id": 88
+    },
+    {
+      "ingredientId": 128,
+      "recipeId": "6",
+      "quantity": 1,
+      "id": 89
+    },
+    {
+      "ingredientId": 63,
+      "recipeId": "6",
+      "quantity": 1,
+      "id": 90
+    },
+    {
+      "ingredientId": 19,
+      "recipeId": "6",
+      "quantity": 1,
+      "id": 91
+    },
+    {
+      "ingredientId": 92,
+      "recipeId": "6",
+      "quantity": 1,
+      "id": 92
+    },
+    {
+      "ingredientId": 267,
+      "recipeId": "6",
+      "quantity": 1,
+      "id": 93
+    },
+    {
+      "ingredientId": 266,
+      "recipeId": "6",
+      "quantity": 1,
+      "id": 94
+    },
+    {
+      "ingredientId": 31,
+      "recipeId": "12",
+      "quantity": 1,
+      "id": 95
+    },
+    {
+      "ingredientId": 268,
+      "recipeId": "12",
+      "quantity": 1,
+      "id": 96
+    },
+    {
+      "ingredientId": 29,
+      "recipeId": "21",
+      "quantity": 1,
+      "id": 97
+    },
+    {
+      "ingredientId": 29,
+      "recipeId": "19",
+      "quantity": 1,
+      "id": 98
+    },
+    {
+      "ingredientId": 245,
+      "recipeId": "19",
+      "quantity": 1,
+      "id": 99
+    },
+    {
+      "ingredientId": 256,
+      "recipeId": "19",
+      "quantity": 1,
+      "id": 100
+    },
+    {
+      "ingredientId": 81,
+      "recipeId": "19",
+      "quantity": 1,
+      "id": 101
+    },
+    {
+      "ingredientId": 5,
+      "recipeId": "19",
+      "quantity": 1,
+      "id": 102
+    },
+    {
+      "ingredientId": 32,
+      "recipeId": "19",
+      "quantity": 1,
+      "id": 103
+    },
+    {
+      "ingredientId": 22,
+      "recipeId": "16",
+      "quantity": 3,
+      "id": 104
+    },
+    {
+      "ingredientId": 89,
+      "recipeId": "16",
+      "quantity": 1,
+      "id": 105
+    },
+    {
+      "ingredientId": 99,
+      "recipeId": "16",
+      "quantity": 1,
+      "id": 106
+    },
+    {
+      "ingredientId": 8,
+      "recipeId": "16",
+      "quantity": 1,
+      "id": 107
+    },
+    {
+      "ingredientId": 86,
+      "recipeId": "16",
+      "quantity": 1,
+      "id": 108
+    },
+    {
+      "ingredientId": 258,
+      "recipeId": "16",
+      "quantity": 1,
+      "id": 109
+    },
+    {
+      "ingredientId": 26,
+      "recipeId": "16",
+      "quantity": 1,
+      "id": 110
+    },
+    {
+      "ingredientId": 14,
+      "recipeId": "14",
+      "quantity": 2,
+      "id": 111
+    },
+    {
+      "ingredientId": 252,
+      "recipeId": "14",
+      "quantity": 1,
+      "id": 112
+    },
+    {
+      "ingredientId": 256,
+      "recipeId": "14",
+      "quantity": 1,
+      "id": 113
+    },
+    {
+      "ingredientId": 269,
+      "recipeId": "14",
+      "quantity": 1,
+      "id": 114
+    },
+    {
+      "ingredientId": 261,
+      "recipeId": "14",
+      "quantity": 1,
+      "id": 115
+    },
+    {
+      "ingredientId": 59,
+      "recipeId": "14",
+      "quantity": 1,
+      "id": 116
+    },
+    {
+      "ingredientId": 68,
+      "recipeId": "14",
+      "quantity": 1,
+      "id": 117
+    },
+    {
+      "ingredientId": 260,
+      "recipeId": "14",
+      "quantity": 1,
+      "id": 118
+    },
+    {
+      "ingredientId": 5,
+      "recipeId": "14",
+      "quantity": 1,
+      "id": 119
+    },
+    {
+      "ingredientId": 15,
+      "recipeId": "13",
+      "quantity": 1,
+      "id": 120
+    },
+    {
+      "ingredientId": 10,
+      "recipeId": "13",
+      "quantity": 2,
+      "id": 121
+    },
+    {
+      "ingredientId": 61,
+      "recipeId": "13",
+      "quantity": 1,
+      "id": 122
+    },
+    {
+      "ingredientId": 68,
+      "recipeId": "13",
+      "quantity": 1,
+      "id": 123
+    },
+    {
+      "ingredientId": 11,
+      "recipeId": "13",
+      "quantity": 1,
+      "id": 124
+    },
+    {
+      "ingredientId": 67,
+      "recipeId": "13",
+      "quantity": 1,
+      "id": 125
+    },
+    {
+      "ingredientId": 73,
+      "recipeId": "13",
+      "quantity": 1,
+      "id": 126
+    },
+    {
+      "ingredientId": 248,
+      "recipeId": "13",
+      "quantity": 1,
+      "id": 127
+    },
+    {
+      "ingredientId": 130,
+      "recipeId": "13",
+      "quantity": 1,
+      "id": 128
+    },
+    {
+      "ingredientId": 132,
+      "recipeId": "13",
+      "quantity": 1,
+      "id": 129
+    },
+    {
+      "ingredientId": 81,
+      "recipeId": "13",
+      "quantity": 1,
+      "id": 130
+    },
+    {
+      "ingredientId": 4,
+      "recipeId": "13",
+      "quantity": 1,
+      "id": 131
     }
   ],
   "recipeLikes": [
@@ -1692,9 +2323,19 @@
       "id": 3
     },
     {
-      "recipeId": 12,
+      "recipeId": 6,
       "userId": 17,
       "id": 4
+    },
+    {
+      "recipeId": 1,
+      "userId": 17,
+      "id": 5
+    },
+    {
+      "recipeId": 5,
+      "userId": 17,
+      "id": 6
     }
   ]
 }
