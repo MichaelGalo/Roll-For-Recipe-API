@@ -77,7 +77,7 @@
     },
     {
       "id": 16,
-      "name": "Michael Danger Galo",
+      "name": "Michael Galo",
       "email": "michael@michaelthinks.co"
     },
     {
@@ -1345,6 +1345,16 @@
       "id": 269,
       "name": "Spring Mix",
       "grocerySubTypeId": 2
+    },
+    {
+      "id": 270,
+      "name": "Salsa",
+      "grocerySubTypeId": 11
+    },
+    {
+      "id": 271,
+      "name": "Cotija Cheese",
+      "grocerySubTypeId": 1
     }
   ],
   "recipes": [
@@ -1355,7 +1365,7 @@
       "mealTypeId": 2,
       "userId": 6,
       "authorFavorite": true,
-      "favorites": 2,
+      "favorites": 1,
       "time": 30,
       "servings": 4,
       "date": "7/31/2024",
@@ -1388,10 +1398,19 @@
       "mealTypeId": 8,
       "userId": 8,
       "authorFavorite": true,
-      "favorites": 1,
+      "favorites": 2,
       "time": 20,
       "servings": 6,
-      "date": "7/31/2024"
+      "date": "7/31/2024",
+      "user": {
+        "id": 8,
+        "name": "Emma Clark",
+        "email": "emma.clark@email.com"
+      },
+      "mealType": {
+        "id": 8,
+        "name": "Greek"
+      }
     },
     {
       "id": 4,
@@ -1403,7 +1422,16 @@
       "favorites": 0,
       "time": 30,
       "servings": 4,
-      "date": "7/31/2024"
+      "date": "7/31/2024",
+      "user": {
+        "id": 9,
+        "name": "David Miller",
+        "email": "david.miller@email.com"
+      },
+      "mealType": {
+        "id": 1,
+        "name": "Italian"
+      }
     },
     {
       "id": 5,
@@ -1412,7 +1440,7 @@
       "mealTypeId": 1,
       "userId": 10,
       "authorFavorite": true,
-      "favorites": 2,
+      "favorites": 3,
       "time": 40,
       "servings": 4,
       "date": "7/31/2024",
@@ -1454,10 +1482,19 @@
       "mealTypeId": 1,
       "userId": 12,
       "authorFavorite": true,
-      "favorites": 1,
+      "favorites": 2,
       "time": 15,
       "servings": 2,
-      "date": "7/31/2024"
+      "date": "7/31/2024",
+      "user": {
+        "id": 12,
+        "name": "Sophia White",
+        "email": "sophia.white@email.com"
+      },
+      "mealType": {
+        "id": 1,
+        "name": "Italian"
+      }
     },
     {
       "id": 8,
@@ -1478,10 +1515,19 @@
       "mealTypeId": 1,
       "userId": 14,
       "authorFavorite": true,
-      "favorites": 1,
+      "favorites": 2,
       "time": 30,
       "servings": 4,
-      "date": "7/31/2024"
+      "date": "7/31/2024",
+      "user": {
+        "id": 14,
+        "name": "Ava Martin",
+        "email": "ava.martin@email.com"
+      },
+      "mealType": {
+        "id": 1,
+        "name": "Italian"
+      }
     },
     {
       "id": 10,
@@ -1490,10 +1536,19 @@
       "mealTypeId": 10,
       "userId": 15,
       "authorFavorite": false,
-      "favorites": 0,
+      "favorites": 1,
       "time": 600,
       "servings": 8,
-      "date": "7/31/2024"
+      "date": "7/31/2024",
+      "user": {
+        "id": 15,
+        "name": "Noah Thomas",
+        "email": "noah.thomas@email.com"
+      },
+      "mealType": {
+        "id": 10,
+        "name": "American"
+      }
     },
     {
       "id": 12,
@@ -1502,14 +1557,14 @@
       "mealTypeId": 10,
       "userId": 16,
       "authorFavorite": true,
-      "favorites": 2,
+      "favorites": 1,
       "time": "",
       "servings": 1,
       "date": "7/31/2024",
       "user": {
-        "email": "michael@michaelthinks.co",
+        "id": 16,
         "name": "Michael Galo",
-        "id": 16
+        "email": "michael@michaelthinks.co"
       },
       "mealType": {
         "id": 10,
@@ -1550,7 +1605,7 @@
       "favorites": 4,
       "time": 70,
       "servings": 8,
-      "date": "7/31/2024"
+      "date": "8/11/2024"
     },
     {
       "id": 17,
@@ -1586,7 +1641,16 @@
       "favorites": 1,
       "time": 3,
       "servings": 1,
-      "date": "7/31/2024"
+      "date": "7/31/2024",
+      "user": {
+        "id": 16,
+        "name": "Michael Galo",
+        "email": "michael@michaelthinks.co"
+      },
+      "mealType": {
+        "id": 10,
+        "name": "American"
+      }
     }
   ],
   "ingredientsForRecipe": [
@@ -2179,12 +2243,6 @@
       "id": 109
     },
     {
-      "ingredientId": 26,
-      "recipeId": "16",
-      "quantity": 1,
-      "id": 110
-    },
-    {
       "ingredientId": 14,
       "recipeId": "14",
       "quantity": 2,
@@ -2309,19 +2367,15 @@
       "recipeId": "13",
       "quantity": 1,
       "id": 131
+    },
+    {
+      "ingredientId": 26,
+      "recipeId": "16",
+      "quantity": 1,
+      "id": 132
     }
   ],
   "recipeLikes": [
-    {
-      "recipeId": 1,
-      "userId": 16,
-      "id": 2
-    },
-    {
-      "recipeId": 12,
-      "userId": 17,
-      "id": 3
-    },
     {
       "recipeId": 6,
       "userId": 17,
@@ -2336,6 +2390,31 @@
       "recipeId": 5,
       "userId": 17,
       "id": 6
+    },
+    {
+      "recipeId": 5,
+      "userId": 16,
+      "id": 8
+    },
+    {
+      "recipeId": 9,
+      "userId": 16,
+      "id": 9
+    },
+    {
+      "recipeId": 10,
+      "userId": 17,
+      "id": 10
+    },
+    {
+      "recipeId": 3,
+      "userId": 17,
+      "id": 11
+    },
+    {
+      "recipeId": 7,
+      "userId": 17,
+      "id": 12
     }
   ]
 }
